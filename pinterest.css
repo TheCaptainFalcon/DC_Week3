@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 1rem;
+
+}
+
+.pic {
+	max-width: 100%;
+	list-style: none;
+
+
+}
+
+
+.pic img {
+	display:block;
+
+}
+
+@media screen and (min-width:640px) {
+	.photos {
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:row;
+
+	}
+	.pic {
+		width:50%;
+		
+	}
+
+}
+
+
+
+@media screen and (min-width:960px){
+	.pic{
+		width: calc(100% / 3);
+	
+	}
+}
+
+
+
+
+
+
+
+
