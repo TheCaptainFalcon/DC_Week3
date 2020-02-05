@@ -1,0 +1,135 @@
+html{
+	font-family: Georgia, calibri;
+	font-size: 16px;
+	box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+/* Whole Page */
+
+.landingPage {
+	background-image: url("https://i.redd.it/ihoxdlxnodpy.jpg");
+	max-width: 100%;
+}
+
+.landingPage img {
+}
+
+
+/* Nav Bar*/
+
+
+.navBar ul, .navBar li, .navBar a {
+	display: flex;
+	justify-content: space-around;
+	color:black;
+	width: 100%;
+	margin-top:2%;
+	padding: 0;	
+	list-style-type: none;
+	text-decoration: none;
+
+}
+
+
+.navBar a {
+	font-weight: bold;
+}
+
+
+/*All of Landing Page and Bottom*/
+
+.landingPageWrapper {
+	display: flex;
+	margin:7rem;
+}
+
+.landingPageWrapper p {
+	color:white;
+
+}
+
+.landingPageRow {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+@media screen and (min-width: 500px) {
+
+.landingPageColumn {
+	display:flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1 0 auto;
+	margin-bottom: 2.25rem;
+	}
+
+}
+
+
+
+
+/* Center of Landing Page*/
+
+
+.center {
+	margin: 12% 2rem;
+	padding: 0% 1.5rem;
+	border: 1px solid black;
+}
+
+
+.center ul {
+	display:grid;
+	align-items: center;
+}
+
+.center li {
+	list-style-type: none;
+	color:black;
+	font-size: 2rem;
+	padding: 0.5rem;
+}
+
+.center button {
+	color:black;
+	border-color:black;
+	background-color: orange;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px;
+	margin-top:10px;
+	
+}
+
+
+/*Right side of Landing Page*/
+/*.landingPageRight{
+	display:flex;
+	flex-direction: flex-end;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
